@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'BadlyStamped';
+    src: url('https://cdn.rawgit.com/jeanbispo/naoobvio/d40edfd4/fonts/BadlyStamped.woff2') format('woff2'),
+        url('https://cdn.rawgit.com/jeanbispo/naoobvio/d40edfd4/fonts/BadlyStamped.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
