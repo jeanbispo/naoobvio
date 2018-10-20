@@ -64,7 +64,7 @@
                 'position': 'static',
                 'left': '0',
                 'top': 'auto',
-                'z-index': ''
+                'z-index': '100000000000000'
               });
             s.stickyElement.parent().removeClass(s.className);
             s.stickyElement.trigger('sticky-end', [s]);
@@ -94,7 +94,7 @@
               .css('width', '170px')
               .css('position', 'fixed')
               .css('top', newTop)
-              .css('z-index', s.zIndex);
+              .css('z-index', '100000000000000');
 
             s.stickyElement.parent().addClass(s.className);
 
